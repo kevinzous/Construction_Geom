@@ -1,0 +1,9 @@
+
+public class Perpendiculaire extends Droite {
+
+	public Perpendiculaire(String myName, Droite droite1, Point point) {
+		super(myName, p, );
+	}
+	
+	
+}

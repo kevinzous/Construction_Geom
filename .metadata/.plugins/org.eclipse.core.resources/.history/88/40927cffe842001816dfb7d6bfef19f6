@@ -1,0 +1,13 @@
+
+public class PointCoordonnees extends PointAbstrait {
+
+	public PointCoordonnees(String myName, double MyAbscisse, double MyOrdonnee) {
+		super(myName, MyAbscisse, MyOrdonnee);
+
+	}
+	
+	public void tracer() {
+		
+	}
+	
+}

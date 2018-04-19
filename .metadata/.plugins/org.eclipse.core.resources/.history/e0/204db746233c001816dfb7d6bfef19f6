@@ -1,0 +1,10 @@
+
+public class Perpendiculaire extends Droite {
+
+	public Perpendiculaire(String myName, Droite myDroite, Point myPoint) {
+		
+		super(myName, -1/(myDroite.getCoefficient()), myPoint.getOrdonnee()+myPoint.getAbscisse()/myDroite.getCoefficient());
+	}
+	
+	
+}

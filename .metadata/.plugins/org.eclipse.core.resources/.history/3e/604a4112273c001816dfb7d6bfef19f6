@@ -1,0 +1,12 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		ElementGeometrique e1 = new ElementGeometrique("e1") ;
+		Point point1 = new Point("A",2.0, 5.0);
+		Point point2 = new Point("B",15.0, 46.0);
+		Droite droite1 = new Droite("d1", 1, 2/3);
+
+	}
+
+}

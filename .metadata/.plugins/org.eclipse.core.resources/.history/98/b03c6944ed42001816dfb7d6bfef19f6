@@ -1,0 +1,12 @@
+
+public class DroiteCoordonnees extends DroiteAbstraite {
+
+	public DroiteCoordonnees(String myName, double myCoefficient, double myOrigine) {
+		super(myName, myCoefficient, myOrigine);
+	}
+
+	public void tracer() {
+	}
+	
+
+}

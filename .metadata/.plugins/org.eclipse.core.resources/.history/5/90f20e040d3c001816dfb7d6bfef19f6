@@ -1,0 +1,10 @@
+
+public abstract class Droite extends ElementsGeometriques {
+
+	public Droite(String myName) {
+		super(myName);
+	}
+	
+	abstract double CoefficientDirecteur() {
+	}
+}

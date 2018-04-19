@@ -1,0 +1,12 @@
+
+public abstract class ElementsGeometriques {
+	private String name;
+	
+	public ElementsGeometriques(String myName) {
+		name = new String(myName);
+	}
+	
+	public void tracer() {
+		
+	}
+}

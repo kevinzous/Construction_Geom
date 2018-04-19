@@ -1,0 +1,16 @@
+
+public class DroiteParallele extends Droite{
+
+	public DroiteParallele(String myName, Droite myDroite, Point myPoint) {
+		
+		// a =	a'
+		// b = y-a'*x
+		
+		super(myName, myDroite.getCoefficient(), myPoint.getOrdonnee()- myPoint.getAbscisse()*myDroite.getCoefficient());
+	
+	}
+	
+	public void tracer() {
+		
+	}
+}

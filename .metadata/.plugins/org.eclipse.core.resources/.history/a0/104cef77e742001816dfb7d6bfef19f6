@@ -1,0 +1,13 @@
+
+public abstract class PointAbstrait extends ElementGeometrique {
+
+	public PointAbstrait(String myName) {
+		super(myName);
+	}
+	
+	abstract double[] coord();
+	
+	void afficher(Graphique g) {
+		
+	}
+}

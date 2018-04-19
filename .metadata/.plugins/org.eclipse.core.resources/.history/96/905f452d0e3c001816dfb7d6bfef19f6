@@ -1,0 +1,8 @@
+
+public abstract class Point extends ElementsGeometriques {
+
+	public Point(String myName) {
+		super(myName);
+	}
+	
+}

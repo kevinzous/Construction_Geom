@@ -1,0 +1,8 @@
+
+public class DroiteDeuxPoints extends Droite{
+
+	public DroiteDeuxPoints(String myName, Point point1, Point point2) {
+		super(myName, (point2.getOrdonnee()-point1.getOrdonnee())/(point2.getAbscisse()-point1.getAbscisse()), point1.getOrdonnee()-point1.getAbscisse()*(point2.getOrdonnee()-point1.getOrdonnee())/(point2.getAbscisse()-point1.getAbscisse()));
+	}
+
+}

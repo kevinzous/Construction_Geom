@@ -1,0 +1,15 @@
+
+public class Milieu extends Point {
+	double abscisse;
+	double ordonnée;
+
+	public Milieu(String myName, Point point1, Point point2) {
+		super(myName);
+		abscisse = new
+	}
+	
+	public double[2] GetCoordonnees() {
+		return [2,2]
+	}
+
+}

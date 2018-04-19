@@ -1,0 +1,8 @@
+
+public class Parallele extends Droite{
+
+	public Parallele(String myName, Droite myDroite, Point myPoint) {
+		
+		super(myName, myDroite.getCoefficient(), myPoint.getOrdonnee()+myPoint.getAbscisse()/myDroite.getCoefficient());
+	}
+}

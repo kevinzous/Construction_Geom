@@ -1,0 +1,21 @@
+
+public class PointMilieu extends PointAbstrait {
+	PointAbstrait point1 ;
+	PointAbstrait point2;
+	
+	
+	public PointMilieu(String myName, PointAbstrait MyPoint1, PointAbstrait MyPoint2){
+		super(myName) ;
+		point1 = MyPoint1;
+		point2 = MyPoint2;
+	}
+
+	public double[] coord() {
+		return  (point1.coord() + point2.coord())/2;
+	}
+	
+	public void tracer() { 
+		
+	}
+	
+}

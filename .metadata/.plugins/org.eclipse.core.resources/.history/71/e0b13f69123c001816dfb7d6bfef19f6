@@ -1,0 +1,12 @@
+
+public class Perpendiculaires extends Droite {
+
+	public Perpendiculaires(String myName, Droite droite1, Point point) {
+		super(myName);
+	}
+	
+	public double CoefficientDirecteur() {
+		return 42;
+	}
+	
+}

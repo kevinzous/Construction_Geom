@@ -1,0 +1,18 @@
+
+public class Milieu extends Point {
+	private Point point1;
+	private Point point2;
+
+	public Milieu(String myName, Point Mypoint1, Point Mypoint2){
+		super(myName);
+		this.point1 = Mypoint1 ;
+		this.point2 = Mypoint2 ;
+	}
+	
+	public double[2] GetCoordonnees() {
+		double a = point1.abscisse() - point2.abscisse();
+		
+		return []
+	}
+
+}

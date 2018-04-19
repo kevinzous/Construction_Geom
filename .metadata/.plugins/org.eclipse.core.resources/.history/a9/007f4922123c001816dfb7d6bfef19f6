@@ -1,0 +1,13 @@
+
+public abstract class Droite extends ElementsGeometriques {
+	private double Coefficient ;
+	private double Origine ; 
+
+	public Droite(String myName, double myCoefficient, double myOrigine) {
+		super(myName);
+		this.Coefficient = myCoefficient ;
+		this.Origine = myOrigine ;
+	}
+	
+	abstract public double CoefficientDirecteur();
+}

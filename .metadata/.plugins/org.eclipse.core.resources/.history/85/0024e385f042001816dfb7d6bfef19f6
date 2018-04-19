@@ -1,0 +1,11 @@
+public class CercleCoordonnees extends CercleAbstrait{
+
+	public CercleCoordonnees(String myName, PointAbstrait myCentre, double myRayon) {
+		super(myName, myCentre, myRayon);
+	}
+
+	public void tracer() {
+		
+	}
+
+}

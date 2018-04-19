@@ -1,0 +1,21 @@
+
+public class DroiteDeuxPoints extends DroiteAbstraite{
+	private PointAbstrait point1 ;
+	private PointAbstrait point2;
+
+	public DroiteDeuxPoints(String myName, PointAbstrait myPoint1, PointAbstrait myPoint2) {
+		
+		// a= (y2-y1)/(x2-x1) 
+		// b = y1 - x1*(y2-y1)/(x2-x1)		
+		super(myName, (point2.getOrdonnee()-point1.getOrdonnee())/(point2.getAbscisse()-point1.getAbscisse()), point1.getOrdonnee()-point1.getAbscisse()*(point2.getOrdonnee()-point1.getOrdonnee())/(point2.getAbscisse()-point1.getAbscisse()));
+		point1 = myPoint1;
+		point2 = myPoint2;
+	}
+	
+	
+	
+	public void tracer() {
+		
+	}
+
+}

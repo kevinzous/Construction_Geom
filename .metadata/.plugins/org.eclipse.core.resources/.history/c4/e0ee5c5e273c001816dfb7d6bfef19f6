@@ -1,0 +1,8 @@
+
+public class PointMilieu extends Point {
+
+	public PointMilieu(String myName, Point MyPoint1, Point MyPoint2){
+		super(myName, (MyPoint1.getAbscisse() + MyPoint2.getAbscisse())/2, (MyPoint1.getOrdonnee()+MyPoint2.getOrdonnee())/2) ;
+	}
+
+}

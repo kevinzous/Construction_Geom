@@ -1,0 +1,29 @@
+
+public abstract class Point extends ElementsGeometriques {
+	private double abscisse;
+	private double ordonnee; 
+	
+	public Point(String myName, double Myabscisse, double Myordonnee) {
+		super(myName);
+		this.abscisse = Myabscisse;
+		this.ordonnee = Myordonnee;
+	}
+	
+	public abstract double GetCoordonnees() ;
+
+	public double getAbscisse() {
+		return abscisse;
+	}
+
+	public void setAbscisse(double abscisse) {
+		this.abscisse = abscisse;
+	}
+
+	public double getOrdonnee() {
+		return ordonnee;
+	}
+
+	public void setOrdonnee(double ordonnee) {
+		this.ordonnee = ordonnee;
+	}
+}

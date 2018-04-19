@@ -1,0 +1,8 @@
+
+public class Milieu extends Point {
+
+	public Milieu(String myName) {
+		super(myName);
+	}
+
+}

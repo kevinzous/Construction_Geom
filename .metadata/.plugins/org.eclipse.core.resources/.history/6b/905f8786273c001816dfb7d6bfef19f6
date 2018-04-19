@@ -1,0 +1,29 @@
+
+public abstract class Cercle extends ElementGeometrique {
+	Point centre;
+	double rayon;
+	
+	public Cercle(String myName, Point myCentre, double myRayon) {
+		super(myName);
+		this.centre = myCentre;
+		this.rayon = myRayon;
+	
+	}
+
+	public Point getCentre() {
+		return centre;
+	}
+
+	public void setCentre(Point centre) {
+		this.centre = centre;
+	}
+
+	public double getRayon() {
+		return rayon;
+	}
+
+	public void setRayon(double rayon) {
+		this.rayon = rayon;
+	}
+
+}

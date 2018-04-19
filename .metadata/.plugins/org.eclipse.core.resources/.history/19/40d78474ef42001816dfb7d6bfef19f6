@@ -1,0 +1,17 @@
+
+public class DroitePerpendiculaire extends DroiteAbstraite {
+
+	public DroitePerpendiculaire(String myName, DroiteAbstraite myDroite, PointAbstrait myPoint) {
+		
+		// a = -1/a'
+		// b = y + x/a'
+		
+		super(myName, -1/(myDroite.getCoefficient()), myPoint.getOrdonnee()+myPoint.getAbscisse()/myDroite.getCoefficient());
+	}
+	
+	public void tracer() {
+		
+	}
+	
+	
+}

@@ -1,0 +1,21 @@
+import java.awt.Graphics;
+
+public class DroiteCoordonnees extends DroiteAbstraite {
+	private double coord[];
+
+	public DroiteCoordonnees(String myName, double myCoefficient, double myOrigine) {
+		super(myName);
+		coord[0]=myCoefficient;
+		coord[1]=myOrigine;
+	}
+
+	public double[] coord() {
+		return coord;
+	}
+	
+	public void tracer(Graphics g) {
+		
+	}
+	
+
+}
