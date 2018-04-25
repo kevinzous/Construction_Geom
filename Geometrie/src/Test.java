@@ -9,7 +9,7 @@ public class Test {
 		DroiteCoordonnees d2 = new DroiteCoordonnees("d2", -2, 4);
 
 		PointMilieu P3 = new PointMilieu("C",p1, p2);
-		
+		//sqd
 		System.out.println(P3.coord());
 	}
 
